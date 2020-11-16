@@ -106,7 +106,7 @@ var quoteCommand = command{
 				}
 			}
 			if len(quotes) > 0 {
-				s.ChannelMessageSend(m.ChannelID, quotes[rand.Intn(len(quotes))])
+				s.ChannelMessageSend(m.ChannelID, "```"+quotes[rand.Intn(len(quotes))]+"```")
 			}
 		}
 		return nil
