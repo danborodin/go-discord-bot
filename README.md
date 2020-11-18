@@ -1,4 +1,4 @@
-# Very simple discord bot coded in GO
+# Very simple discord bot coded in GO (WIP)
 
 ## It has only few commands
 * !go help - list all commands
